@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Footer{
+    background-color: rgb(13, 10, 31);
+}
+.Footer > .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.Footer > .container .content .logo h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.Footer > .container .content .logo h2 span{
+    background: linear-gradient(90deg, #ed239f 0%, #1345e6 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.Footer > .container .content .text{
+    font-size: 18px;
+    color: rgb(190, 190, 190);
+    font-weight: 600;  
+    margin-bottom: 26px;
+}
+.Footer > .container .content .text p{
+    margin-bottom: 6px;
+}
+.Footer > .container .content .socialmedia{
+    display: flex;
+    list-style-type: none;
+}
+.Footer > .container .content .socialmedia i{
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.Footer > .container .content .socialmedia li i{
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.Footer > .container .content .socialmedia li .fa-facebook-f{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(38, 53, 192);
+    border: solid rgb(38, 53, 192) 1px;
+    transition: 0.5s;
+}
+.Footer > .container .content .socialmedia li .fa-facebook-f:hover{
+    background-color: rgb(38, 53, 192);
+    color: #fff;
+}
+.Footer > .container .content .socialmedia li .fa-instagram{
+    padding-left: 8.5px;
+    padding-right: 8.5px;
+    color: rgb(202, 35, 91);
+    border: solid rgb(202, 35, 91) 1px;
+    transition: 0.5s;
+}
+.Footer > .container .content .socialmedia li .fa-instagram:hover{
+    background-color: rgb(202, 35, 91);
+    color: #fff;
+}
+.Footer > .container .content .socialmedia li .fa-youtube{
+    padding-left: 6.5px;
+    padding-right: 6.5px;
+    color: rgb(209, 41, 41);
+    border: solid rgb(209, 41, 41) 1px;
+    transition: 0.5s;
+}
+.Footer > .container .content .socialmedia li .fa-youtube:hover{
+    background-color: rgb(209, 41, 41);
+    color: #fff;
+}
+.Footer > .container .content .socialmedia li .fa-twitter{
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    color: rgb(96, 105, 190);
+    border: solid rgb(96, 105, 190) 1px;
+    transition: 0.5s;
+}
+.Footer > .container .content .socialmedia li .fa-twitter:hover{
+    background-color: rgb(96, 105, 190);
+    color: #fff;
+}
+
+
+.Footer > .container .content2 .head{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.Footer > .container .content2 .links li{
+    color: #be23ed;
+    margin-bottom: 7px;
+}
+.Footer > .container .content2 .links li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+
+.Footer > .container .content4 .head{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.Footer > .container .content4 .text p{
+    font-size: 18px;
+    color: rgb(190, 190, 190);
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.Footer > .container .content4 .text .contact {
+    margin-top: 20px;
+}
+.Footer > .container .content4 .text .contact i{
+    color:  #be23ed;
+}
+.Footer > .container .content4 .text .contact div{
+    color: rgb(190, 190, 190);
+    margin-top: 8px;
+}
+
+.Footer > .container .contact-footer .head{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Footer > .container .contact-footer .inputs input{
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    margin: 2px;
+    outline: none;
+    opacity: 0.6;
+}
+.Footer > .container .contact-footer .inputs input:focus{
+    color: #fff;
+}
+.Footer > .container .contact-footer .inputs textarea{
+    border: none;
+    border-radius: 20px;
+    max-height: 80px;
+    margin: 2px;
+    background-color: #000;
+    opacity: 0.6;
+    width: 500px;
+    max-width: 300px;
+    color: #fff;
+}
+.Footer > .container .contact-footer .inputs button{
+    margin: 5px;
+    background-color: #be23ed;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative; 
+    bottom: 20px;
+    transition: 0.3s;
+}
+.Footer > .container .contact-footer .inputs button:hover{
+    background-color: #1345e6;
+}
+
+
+.Footer > .end{
+    text-align: center;
+    color: rgb(190, 190, 190);
+    padding: 23px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-top: solid rgb(190, 190, 190) 1px;
+}

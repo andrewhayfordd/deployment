@@ -1,0 +1,19 @@
+body{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 7px;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(202, 202, 202); 
+  }  
+::-webkit-scrollbar-thumb {
+    background: rgb(182, 0, 182); 
+    color: rgb(115, 0, 182);
+  }
+
+  @media (max-width:490px) {
+    html,body{
+        overflow-x: hidden;
+    }
+}
