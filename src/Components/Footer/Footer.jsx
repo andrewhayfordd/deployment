@@ -49,11 +49,13 @@ function Footer(){
                 <div className="contact-footer">
                     <div className="head">Contact</div>
                     <div className="inputs">
-                    <input type="text" placeholder="First Name"/>
-                    <input type="text" placeholder="Last Name"/><br/>
-                    <input type="text" placeholder="Subject" /><br/>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <form action="" method="POST" data-email="aaryeetey12@gmail.com">
+                    <input type="text" name="First Name" placeholder="First Name"/>
+                    <input type="text" name="Last Name" placeholder="Last Name"/><br/>
+                    <input type="text" name="Subject" placeholder="Subject" /><br/>
+                    <textarea placeholder="Message" name="Message" id="" cols="30" rows="10"></textarea>
                     <button type="submit">Submit</button>
+                    </form>
                     </div>
                 </div>
               

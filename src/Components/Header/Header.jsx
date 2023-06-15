@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
 import "./fontawesome-free-5.15.4-web/css/all.min.css";
-import { Link } from "react-router-dom";
 
 function Header(){
 
@@ -10,7 +9,6 @@ function Header(){
         Header.classList.toggle("active", this.window.scrollY > 200)
     })
 
-    const [navbar, setNavbar] = useState("");
 
     return(
 

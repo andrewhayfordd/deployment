@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Hero.css";
 import svg from "./img1/svg.mp4";
-import susan from "./img1/susan.png";
 
 function Hero(){
     const skillLevel1 = [
@@ -21,9 +20,7 @@ function Hero(){
     const details2 = [{id: 2, name2: "AWARD WINNING", val2: 12}]
     const details3 = [{id: 3, name3: "YEARS EXPERIENCE", val3: 10}]
     const details4 = [{id: 4, name4: "HAPPY CLIENTS", val4: 72}]
-    const dates = [
-        {date1: "26 FEB 2019", date2: "27 FEB 2019", date3: "28 FEB 2019"}
-    ]
+    
 
    const Works =[
     require("./img1/susan.png"),

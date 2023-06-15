@@ -10,13 +10,7 @@ import { IndexRouteObject } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
        <Header/>
-        <Routes>
-          <Route path='/contact' element={<Contact/>} />
-          <Route path='/home' element={<Hero/>} />
-        </Routes>
-      </BrowserRouter>
       <Hero/>
     <Footer/>
     </div>

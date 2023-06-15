@@ -148,6 +148,7 @@
     margin: 2px;
     outline: none;
     opacity: 0.6;
+    color: #fff;
 }
 .Footer > .container .contact-footer .inputs input:focus{
     color: #fff;
@@ -155,13 +156,15 @@
 .Footer > .container .contact-footer .inputs textarea{
     border: none;
     border-radius: 20px;
-    max-height: 80px;
+    max-height: 70px;
     margin: 2px;
     background-color: #000;
     opacity: 0.6;
     width: 500px;
     max-width: 300px;
+    padding: 10px;
     color: #fff;
+    outline: none;
 }
 .Footer > .container .contact-footer .inputs button{
     margin: 5px;
