@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
 import "./fontawesome-free-5.15.4-web/css/all.min.css";
 
