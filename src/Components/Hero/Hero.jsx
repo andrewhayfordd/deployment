@@ -31,7 +31,7 @@ function Hero(){
     
     return(
         <div className="a">
-        <div className="Hero">
+        <div className="Hero" id="#home">
             <div className="container">
             <div className="mainhero">
                 <div className="head">

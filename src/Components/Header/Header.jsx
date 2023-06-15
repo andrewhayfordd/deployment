@@ -20,11 +20,11 @@ function Header(){
             </div>
 
             <div className="links">
-                <li className="home"><a href="">Home</a></li>
-                <li className="dp"><a href="">Projects</a>
+                <li className="home"><a href="#home">Home</a></li>
+                <li className="dp"><a href="#home">Projects</a>
                 <ul>
-                    <li className="sub"><a href="">Websites</a></li>
-                    <li><a href="">Wep Apps</a></li>
+                    <li className="sub"><a href="#home">Websites</a></li>
+                    <li><a href="#home">Wep Apps</a></li>
                 </ul>
                 </li>
                 <li><a href="#skill" >Skill</a></li>
