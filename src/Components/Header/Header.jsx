@@ -9,6 +9,11 @@ function Header(){
         Header.classList.toggle("active", this.window.scrollY > 200)
     })
 
+    
+    const body = document.querySelector("body");
+    const mood =()=>{
+        body.classList.toggle("dark");
+    }
 
     return(
 
@@ -33,7 +38,7 @@ function Header(){
             </div>
 
             <div className="button">
-                <i className="fas fa-moon"></i>
+                <i className="fas fa-moon" onClick={mood}></i>
                 <button type="button">Hire Me</button>
             </div>
 

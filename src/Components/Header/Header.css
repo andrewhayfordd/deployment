@@ -10,16 +10,18 @@
 }
 .Header > .container .logo{
     font-size: 25px;
+    color: var(--text-color);
 }
 .Header > .container .logo span{
     background: linear-gradient(90deg,#1345e6 0%,#ed239f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.Header > .container .button i{
+.Header > .container .button .fa-moon{
     font-size: 20px;
     position: relative;
     top: 5px;
+    color: var(--text-color);
 }
 .Header > .container .button button{
     padding: 7px 20px;
@@ -48,7 +50,7 @@
     margin: 3px;
     padding: 10px;
     font-size: 19px;
-    color: rgb(11, 4, 24);
+    color: var(--text-color);
 }
 .Header > .container .links a:hover{
     background: linear-gradient(90deg, #ed239f 0%, #1345e6 100%);
@@ -56,7 +58,7 @@
     -webkit-background-clip: text;
 }
 .Header > .container .links li ul{
-    background-color: #fff;
+    background-color: var(--ulBG-color);
     list-style-type: none;
     display: block;
     position: absolute;
@@ -79,7 +81,8 @@
     box-shadow: 0px 5px 8px 3px rgba(0 0 0 /6%);
     width: 100%;
     z-index: 10;
-    background-color: #fff;
+    height: 66px;
+    background-color: var(--ulBG-color);
 }
 .Header > .container .links .dp a{
     padding-bottom: 30px;

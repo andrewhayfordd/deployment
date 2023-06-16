@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: var(--body-color);
+}
 .Hero{
     margin: 60px;
+    margin-left: 100px;
     display: flex;
 }
 .Hero > .container .mainhero .head{
     font-size: 44px;
     font-weight: 600;
     margin-bottom: 20px;
+    color: var(--text-color);
 } 
 .Hero > .container .mainhero .head span{
     background: linear-gradient(90deg, #ec239f 0%, #1345e6 100%);
@@ -17,7 +22,7 @@
     -webkit-background-clip: text;
 }
 .Hero > .container .mainhero .main{
-    color: rgb(85, 85, 85);
+    color: var(--text2-color);
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -99,12 +104,12 @@
     background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
 }
 
-.Hero > .container2 video{
-    height: 600px;
-    width: 700px;
-    margin-top: -150px;
-    position: absolute;
-    z-index: -1;
+.Hero > .container2 .shape img{
+   width: 600px;
+   height: 460px;
+   position: relative;
+   top: -60px;
+   left: 120px;
 }
 
 @media (max-width:950px){
@@ -142,6 +147,7 @@
     font-weight: 700;
     margin: 15px;
     margin-left: 45px;
+    color: var(--text-color);
 }
 .AboutMe > .container .text1{
     margin: 35px;
@@ -149,7 +155,7 @@
 .AboutMe > .container .text1 p{
     font-size: 16px;
     font-weight: 600;
-    color: rgb(133, 133, 133);
+    color: var(--text3-color);
     margin: 10px;
 }
 
@@ -170,9 +176,8 @@
 }
 
 .AboutMe > .container2 img{
-    height: 600px;
-    width: 510px;
-    margin-right: 35px;
+    width: 600px;
+   height: 460px;
 }
 
 .About > .container .achievement{
@@ -180,14 +185,14 @@
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
-    margin-top: 110px;
+    margin-top: 10px;
 }
 .About > .container .achievement .main{
     text-align: center;
     padding: 30px;
     border-radius: 2px;
     width: 200px;
-    background-color: rgb(230, 230, 230);
+    background-color: var(--achBG-color);
     margin: 10px;
 }
 .About > .container .achievement .main .val{
@@ -196,6 +201,9 @@
     background: linear-gradient(90deg,#1345e6 0%,#ed239f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.About > .container .achievement .main .name{
+    color: var(--text2-color)
 }
 
 .AboutMe > .container2 video{
@@ -265,6 +273,7 @@
 .Skill > .container .header .title{
     font-size: 30px;
     font-weight: 700;
+    color: var(--text-color);
 }
 .Skill > .container .progress{
     padding: 20px;
@@ -277,13 +286,14 @@
 }
 .Skill > .container .progress .progress_head .progress-head .title{
     font-weight: 700;
+    color: var(--text-color);
 }
 .Skill > .container .progress .progress_head .progress_bar .outer{
     padding: 1px;
     border: 1px;
     width: 100%;
     border-radius: 20px;
-    background-color: rgb(202, 202, 202);
+    background-color: var(--skill-bg);
 }
 .Skill > .container .progress .progress_head .progress_bar .outer .inner{
     padding: 4px;
@@ -300,13 +310,14 @@
 }
 .Skill > .container .progress .progress_head2 .progress-head .title{
     font-weight: 700;
+    color: var(--text-color);
 }
 .Skill > .container .progress .progress_head2 .progress_bar .outer{
     padding: 1px;
     border: 1px;
     width: 100%;
     border-radius: 20px;
-    background-color: rgb(202, 202, 202);
+    background-color: var(--skill-bg);
 }
 .Skill > .container .progress .progress_head2 .progress_bar .outer .inner{
     padding: 4px;
@@ -322,13 +333,14 @@
 }
 .Skill > .container .progress .progress_head3 .progress-head .title{
     font-weight: 700;
+    color: var(--text-color);
 }
 .Skill > .container .progress .progress_head3 .progress_bar .outer{
     padding: 1px;
     border: 1px;
     width: 100%;
     border-radius: 20px;
-    background-color: rgb(202, 202, 202);
+    background-color: var(--skill-bg);
 }
 .Skill > .container .progress .progress_head3 .progress_bar .outer .inner{
     padding: 4px;
@@ -344,13 +356,26 @@
 }
 .Skill > .container .progress .progress_head4 .progress-head .title{
     font-weight: 700;
+    color: var(--text-color);
+}
+.Skill > .container .progress .progress_head .progress-head .val{
+    color: var(--text3-color)
+}
+.Skill > .container .progress .progress_head2 .progress-head .val{
+    color: var(--text3-color)
+}
+.Skill > .container .progress .progress_head3 .progress-head .val{
+    color: var(--text3-color)
+}
+.Skill > .container .progress .progress_head4 .progress-head .val{
+    color: var(--text3-color)
 }
 .Skill > .container .progress .progress_head4 .progress_bar .outer{
     padding: 1px;
     border: 1px;
     width: 100%;
     border-radius: 20px;
-    background-color: rgb(202, 202, 202);
+    background-color: var(--skill-bg);
 }
 .Skill > .container .progress .progress_head4 .progress_bar .outer .inner{
     padding: 4px;
@@ -366,10 +391,11 @@
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: var(--text-color);
 }
 .Skill > .container .about .text{
     font-weight: 700;
-    color: rgb(92, 92, 92);
+    color: var(--text3-color);
     margin-bottom: 20px;
 }
 .Skill > .container .about .text p{
@@ -377,7 +403,7 @@
 }
 .Skill > .container .about .text2{
     font-weight: 700;
-    color: rgb(92, 92, 92);
+    color: var(--text3-color);
 }
 .Skill > .container .about .text2 p{
     margin-bottom: 7px;
@@ -407,26 +433,6 @@
     margin-right: 140px;
 }
 
-.Skill > .main{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 80px;
-    padding-left: 160px;
-    padding-right: 160px;
-    background-color: rgb(2, 192, 2);
-}
-.Skill > .main .achievements .mainachievements .val{
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 16px;
-    color: #fff;
-}
-.Skill > .main .achievements .mainachievements .name{
-    color: #fff;
-    font-weight: 600;
-}
-
 .Mywork > .header{
     text-align: center;
 }
@@ -441,6 +447,7 @@
 .Mywork > .header .title{
     font-size: 30px;
     font-weight: 700;
+    color: var(--text-color);
 }
 .Mywork > .content .work{
     display: flex;
@@ -451,80 +458,6 @@
     margin-bottom: 50px;
 }
 .Mywork > .content .work img{
-    width: 500px;
-    height: 300px;
-}
-.body > .main .text{
-   text-align: center;
-   position: relative;
-   bottom: 504px;
-   padding-top: 90px;
-   height: 410px;
-   width: 100%;
-   background-color: #000;
-   opacity: 0.8;
-   cursor: pointer;
-   opacity: 0;
-   transition: 0.6s;
-}
-.body > .main .text:hover{
-    opacity: 0.7;
-}
-
-.body > .main .text .head{
-    font-size: 30px;
-    color: #fff;
-    margin: 40px;
-    font-weight: 600;
-}
-.body >.main .text .title{
-    font-size: 18px;
-    color: rgb(206, 206, 206);
-    margin-bottom: 50px;
-}
-.body > .main .text .icon{
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    margin-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-
-.body2 > .main .text{
-   text-align: center;
-   position: relative;
-   bottom: 504px;
-   padding-top: 90px;
-   height: 410px;
-   width: 100%;
-   background-color: #000;
-   opacity: 0.8;
-   cursor: pointer;
-   opacity: 0;
-   transition: 0.6s;
-}
-.body2 > .main .text:hover{
-    opacity: 0.7;
-}
-
-.body2 > .main .text .head{
-    font-size: 30px;
-    color: #fff;
-    margin: 40px;
-    font-weight: 600;
-}
-.body2 >.main .text .title{
-    font-size: 18px;
-    color: rgb(206, 206, 206);
-    margin-bottom: 50px;
-}
-.body2 > .main .text .icon{
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    margin-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 600px;
+    height: 400px;
 }

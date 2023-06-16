@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import svg from "./img1/svg.mp4";
+import portfolio from "../Hero/img1/portfolio2.png";
 
 function Hero(){
     const skillLevel1 = [
@@ -58,7 +58,7 @@ function Hero(){
         </div>
 
         <div className="container2">
-            <video src={svg} loop muted autoPlay></video>
+            <div className="shape"><img src={portfolio} alt="" /></div>
         </div>
         </div>
 
@@ -102,6 +102,10 @@ function Hero(){
           </div>
 
         <div className="AboutMe" id="aboutme">
+        <div className="container2">
+                <div className="shape"><img src={portfolio} alt="" /></div>
+            </div>
+
             <div className="container">
                 <div className="head">About Me</div>
                 <div className="title">Who I Am And What I Do </div>
@@ -123,9 +127,6 @@ function Hero(){
                 
             </div>
 
-            <div className="container2">
-                <video src={svg} loop muted autoPlay></video>
-            </div>
             </div>
 
         </div>
@@ -146,7 +147,7 @@ function Hero(){
                     {skillLevel1.map((skill)=> (
                         <div className="progress-head" key={skill.id}>
                             <div className="title">{skill.name}</div>
-                            <div>{skill.val}%</div>
+                            <div className="val">{skill.val}%</div>
                         </div>
                     ))}
                     <div className="progress_bar">
@@ -158,7 +159,7 @@ function Hero(){
                     {skillLevel2.map((skill)=> (
                         <div className="progress-head" key={skill.id}>
                             <div className="title">{skill.name}</div>
-                            <div>{skill.val}%</div>
+                            <div className="val">{skill.val}%</div>
                         </div>
                     ))}
                     <div className="progress_bar">
@@ -170,7 +171,7 @@ function Hero(){
                     {skillLevel3.map((skill)=> (
                         <div className="progress-head" key={skill.id}>
                             <div className="title">{skill.name}</div>
-                            <div>{skill.val}%</div>
+                            <div className="val">{skill.val}%</div>
                         </div>
                     ))}
                     <div className="progress_bar">
@@ -182,7 +183,7 @@ function Hero(){
                     {skillLevel4.map((skill)=> (
                         <div className="progress-head" key={skill.id}>
                             <div className="title">{skill.name}</div>
-                            <div>{skill.val}%</div>
+                            <div className="val">{skill.val}%</div>
                         </div>
                     ))}
                     <div className="progress_bar">
