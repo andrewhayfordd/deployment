@@ -17,13 +17,30 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.Header > .container .button .mood{
+    position: relative;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+}
 .Header > .container .button .fa-moon{
     font-size: 20px;
     position: relative;
     top: 5px;
     color: var(--text-color);
+    display: var(--display-sun);
+}
+.Header > .container .button .fa-sun{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    color: var(--text-color);
+    display: var(--display-moon);
+   
 }
 .Header > .container .button button{
+    position: relative;
+    bottom: 12px;
     padding: 7px 20px;
     background: linear-gradient(90deg,#1345e6 0%,#ed239f 100%);
     border: 0;
@@ -35,7 +52,7 @@
     -webkit-transition: all .7s ease 0.6s;
     -moz-transition: all .7s ease 0.6s;
     -o-transition: all .7s ease 0.6s;
-    transition: all .7s ease 0.6s
+    transition: all .7s ease 0.6s;
 }
 .Header > .container .button button:hover{
     background: linear-gradient(90deg, #ed239f 0%, #1345e6 100%);

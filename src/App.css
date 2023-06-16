@@ -26,6 +26,8 @@ body{
   --ulBG-color: #fff;
   --skill-bg: rgb(202, 202, 202);
   --achBG-color: #d6d6d6;
+  --display-sun: flex;
+  --display-moon: none;
 }
 
 body.dark{
@@ -36,4 +38,6 @@ body.dark{
   --text2-color: #c9c9c9;
   --text3-color: #afafaf;
   --skill-bg: #562a64;
+  --display-sun: none;
+  --display-moon: flex;
 }

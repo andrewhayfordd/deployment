@@ -15,6 +15,8 @@ function Header(){
         body.classList.toggle("dark");
     }
 
+    
+
     return(
 
         <div className="Header">
@@ -38,16 +40,15 @@ function Header(){
             </div>
 
             <div className="button">
+                <div className="mood">
                 <i className="fas fa-moon" onClick={mood}></i>
+                <i className="fas fa-sun" onClick={mood}></i>
+                </div>
                 <button type="button">Hire Me</button>
             </div>
 
            </div>
 
-
-           <div className="container2">
-            
-           </div>
            </div>
            
 
