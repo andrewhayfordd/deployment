@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: var(--body-color);
 }
@@ -30,18 +34,13 @@ body{
 .Hero > .container .mainhero .socialmedia{
     display: flex;
     list-style-type: none;
-}
-.Hero > .container .mainhero .socialmedia i{
-    padding: 7px;
-    border-radius: 50%;
-    margin-right: 15px;
-    cursor: pointer;
+    justify-content: space-between;
+    width: 160px;
 }
 
 .Hero > .container .mainhero .socialmedia li i{
     padding: 7px;
     border-radius: 50%;
-    margin-right: 15px;
     cursor: pointer;
 }
 .Hero > .container .mainhero .socialmedia li .fa-facebook-f{
@@ -111,22 +110,61 @@ body{
    top: -60px;
    left: 120px;
 }
+@media (max-width:1115px){
+    .Hero > .container .mainhero .head{
+        font-size: 30px;
+    }
+}
+@media (max-width:1063px){
+    .Hero > .container .mainhero .head{
+        font-size: 25px;
+    }
+    .Hero > .container .mainhero .main{
+        font-size: 15px;
+    }
+    .Hero > .container2 .shape img{
+        height: 400px;
+        width: 450px;
+    }
+}
 
 @media (max-width:950px){
     .Hero{
         display: block;
+        padding-top: 50px;
+        margin-left: 0;
         text-align: center;
-        margin: 2px;
+        margin: 0;
     }
     .Hero > .container .socialmedia{
-        justify-content: center;
+        margin: auto;
     }
-    .Hero > .container2 video{
-        width: 520px;
+    .Hero > .container2 .shape img{
+        left: 0;
+        top: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         position: relative;
-        margin-bottom: -150px;
+    }
+    
+    
+}
+@media (max-width:423px){
+    .Hero > .container2 .shape img{
+        position: relative;
+        left: -15px;
     }
 }
+@media (max-width:376px){
+    .Hero > .container2 .shape img{
+        position: relative;
+        left: -27px;
+    }
+}
+
+
+
 
 .AboutMe{
     display: flex;
@@ -182,16 +220,16 @@ body{
 
 .About > .container .achievement{
     display: flex;
-    justify-content: space-between;
-    margin-left: 70px;
-    margin-right: 70px;
+    justify-content: center;
     margin-top: 10px;
+    position: relative;
+    flex-wrap: wrap;
 }
 .About > .container .achievement .main{
     text-align: center;
     padding: 30px;
     border-radius: 2px;
-    width: 200px;
+    width: 250px;
     background-color: var(--achBG-color);
     margin: 10px;
 }
@@ -213,44 +251,61 @@ body{
     margin-top: -110px;
 }
 
+@media (max-width:1115px){
+    .AboutMe > .container2 .shape img{
+        height: 400px;
+        width: 450px;
+    }
+    .AboutMe > .container .title{
+        font-size: 19px;
+    }
+    .AboutMe > .container .text1 p{
+        font-size: 12px;
+    }
+    .AboutMe > .container .btn button{
+        padding: 10px 15px;
+    }
+}
 @media (max-width:950px) {
-    
     .AboutMe > .container{
         text-align: center;
+        margin-left: -60px;
+        margin-right: -60px;
     }
     .AboutMe > .container .btn button{
         margin: 0;
     }
+    .AboutMe .container .head{
+        margin-left: 0;
+    }
+    .AboutMe .container .title{
+        margin-left: 0;
+    }
+    .AboutMe .container .text1{
+        margin: 0;
+        width: 100%;
+    }
     .AboutMe{
         display: block;
     }
-    .AboutMe > .container2 video{
-        width: 600px;
-        position: relative;
-        margin-left: -90px;
-        margin-top: -170px;
-        margin-bottom: -235px;
-        justify-content: center;
-    }
-    .About > .container .achievement{
-        margin-left: 5px;
-        margin-top: 17px;
-        display: block;
-        margin-left: 17px;
-    }
-    .About > .container .achievement .main{
-        width: 300px;
-    }
-    .About > .container .achievement .main .val{
-        font-size: 25px;
-        margin-top: 2px;
-    }
-    
-}
+    .AboutMe > .container2 .shape img{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
 
-*{
-    margin: 0;
-    padding: 0;
+    }
+}
+@media (max-width:423px){
+    .AboutMe > .container2 .shape img{
+        position: relative;
+        left: -60px;
+    }
+}
+@media (max-width:376px){
+    .AboutMe > .container2 .shape img{
+        position: relative;
+        left: -80px;
+    }
 }
 
 .Skill > .container{
@@ -397,6 +452,7 @@ body{
     font-weight: 700;
     color: var(--text3-color);
     margin-bottom: 20px;
+    width: 500px;
 }
 .Skill > .container .about .text p{
     margin-bottom: 7px;
@@ -432,6 +488,51 @@ body{
     margin-left: 120px;
     margin-right: 140px;
 }
+@media (max-width:1115px){
+    .Skill > .container .header .title{
+        font-size: 20px;
+    }
+    .Skill > .container .container2 {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .Skill > .container .container2 .about .title{
+        font-size: 17px;
+    }
+    .Skill > .container .container2 .about .text p{
+        font-size: 12px;
+    }
+    .Skill > .container .container2 .progress .progress-head .title{
+        font-size: 13px;
+    }
+    .Skill > .container .container2 .progress .progress-head .val{
+        font-size: 12px;
+    }
+}
+@media (max-width:950px){
+    .Skill > .container .container2{
+        display: block;
+        text-align: center;
+    }
+    .Skill > .container .container2 .progress{
+       margin: auto;
+       position: relative;
+       bottom: 40px;
+       width: 100%;
+    }
+    .Skill > .container .progress{
+        padding: 0;
+    }
+    .Skill{
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+    .Skill > .container .about .text{
+        width: 100%;
+    }
+
+}
+
 
 .Mywork > .header{
     text-align: center;
@@ -460,4 +561,10 @@ body{
 .Mywork > .content .work img{
     width: 600px;
     height: 400px;
+}
+@media (max-width:612px){
+    .Mywork > .content .work img{
+        width: 370px;
+        height: 170px;
+    }
 }

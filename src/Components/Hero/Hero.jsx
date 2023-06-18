@@ -16,10 +16,12 @@ function Hero(){
         {id:4, name: "REACT JS", val: 70}
     ]
 
-    const details1 = [{id: 1, name1: "PRODUCTS COMPLETED", val1: 200}]
-    const details2 = [{id: 2, name2: "AWARD WINNING", val2: 12}]
-    const details3 = [{id: 3, name3: "YEARS EXPERIENCE", val3: 10}]
-    const details4 = [{id: 4, name4: "HAPPY CLIENTS", val4: 72}]
+    const achievements = [
+        {id: 1, name: "PRODUCTS COMPLETED", val: 200},
+        {id: 2, name: "AWARD WINNING", val: 12},
+        {id: 3, name: "YEARS EXPERIENCE", val: 10},
+        {id: 4, name: "HAPPY CLIENTS", val: 72}
+    ]
     
 
    const Works =[
@@ -69,36 +71,15 @@ function Hero(){
             <div className="container">
           <div className="achievement">
             
-            <div className="main">{details1.map((detail)=> (
-                    <div key={detail.id}>
-                        <div className="val">{detail.val1}</div>
-                            <div className="name">{detail.name1}</div>
-                    </div>))}
-            </div>
-            <div className="main">{details2.map((detail)=> (
-                    <div key={detail.id}>
-                        <div className="val">{detail.val2}</div>
-                         <div className="name">{detail.name2}</div>
-                    </div>))}
-            </div>
-
-            <div className="main">
-                {details3.map((detail)=> (
-                    <div key={detail.id}>
-                        <div className="val">{detail.val3}+</div>
-                            <div className="name">{detail.name3}</div>
+            {achievements.map((details, index)=> (
+                <div className="main">
+                    <div key={details.id}>
+                        <div className="val">{details.val}+</div>
+                        <div className="name">{details.name}</div>
                     </div>
-                ))}
-            </div>
-
-            <div className="main">
-                {details4.map((detail)=> (
-                    <div key={detail.id}>
-                        <div className="val">{detail.val4}+</div>
-                            <div className="name">{detail.name4}</div>
-                    </div>
-                ))}
-            </div>
+                </div>
+            ))}
+           
           </div>
 
         <div className="AboutMe" id="aboutme">
@@ -110,15 +91,15 @@ function Hero(){
                 <div className="head">About Me</div>
                 <div className="title">Who I Am And What I Do </div>
                 <div className="text1">
-                    <p>As a novice front end software developer,</p> 
-                    <p>I am eager to expand my skills and create projects that will make a lasting impact </p>
-                    <p>I am confident that my knowledge of React, JavaScript, and HTML/CSS</p>
-                    <p>can help me become a successful and well-rounded developer.</p>
+                    <p>As a novice front end software developer,
+                    I am eager to expand my skills and create projects that will make a lasting impact
+                    I am confident that my knowledge of React, JavaScript, and HTML/CSS
+                    can help me become a successful and well-rounded developer.</p>
                 </div>
                 <div className="text1">
-                    <p>With this in mind, I am actively searching for opportunities</p> 
-                    <p>that will challenge me and allow me to grow as an individual</p>
-                    <p>My passion for coding and problem solving will be an asset to any team</p>
+                    <p>With this in mind, I am actively searching for opportunities 
+                    that will challenge me and allow me to grow as an individual
+                    My passion for coding and problem solving will be an asset to any team</p>
                 </div>
                 
                 <div className="btn">
@@ -196,14 +177,14 @@ function Hero(){
                 <div className="title">Every Day Is A New Challenge</div>
 
                 <div className="text">
-                    <p>I have the capacity to stay up-to-date with the changes in technology</p>
-                    <p>and develop my skills to stay competitive in the field,</p>
-                    <p>I also have the necessary ability to become a valuable asset.</p>
+                    <p>I have the capacity to stay up-to-date with the changes in technology
+                    and develop my skills to stay competitive in the field,
+                    I also have the necessary ability to become a valuable asset.</p>
                 </div>
-                <div className="text2">
-                    <p>I have the ability to make a positive contribution to any team.</p>
-                    <p>My passion for technology and problem-solving</p>
-                    <p>makes me an ideal candidate for any software development role</p>
+                <div className="text">
+                    <p>I have the ability to make a positive contribution to any team.
+                    My passion for technology and problem-solving
+                    makes me an ideal candidate for any software development role</p>
                 </div>
 
                 <div className="btn">
@@ -230,10 +211,7 @@ function Hero(){
             </div>
        </div>
         
-        
-
-
-       
+    
 
         </div>
     );

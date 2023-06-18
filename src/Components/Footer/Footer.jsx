@@ -10,7 +10,7 @@ function Footer(){
                     <div className="logo"><h2>LED<span>VUS</span></h2></div>
 
                     <div className="text">
-                        <p>Feel free to link up with <br/>me on social media. <br/>You will find more of my work there</p>
+                        <p>Feel free to link up with me on social media. You will find more of my work there</p>
                         
                     </div>
 
@@ -63,6 +63,12 @@ function Footer(){
 
             <div className="end">
                 <p>Copyright © 2022 Developed by IDEACO-All rights reserved.</p>
+                <div className="socialmedia">
+                        <li><i className="fab fa-facebook-f"></i></li>
+                        <li><i className="fab fa-instagram"></i></li>
+                        <li><i className="fab fa-youtube"></i></li>
+                        <li><i className="fab fa-twitter"></i></li>
+                    </div>
             </div>
         </div>
     );

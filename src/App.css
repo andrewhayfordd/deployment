@@ -1,6 +1,9 @@
 body{
     overflow-x: hidden;
+    margin: 0;
+    transition: 0.5s;
 }
+
 ::-webkit-scrollbar {
     width: 7px;
   }
@@ -28,11 +31,13 @@ body{
   --achBG-color: #d6d6d6;
   --display-sun: flex;
   --display-moon: none;
+  --mode-color: #fff;
 }
 
 body.dark{
   --body-color: #0f0513;
   --ulBG-color: #1a0920;
+  --mode-color: #290f33;
   --achBG-color: #1a0920;
   --text-color: #fff;
   --text2-color: #c9c9c9;
