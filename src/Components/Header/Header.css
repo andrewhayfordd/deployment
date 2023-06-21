@@ -170,6 +170,9 @@ a {
         z-index: 3;
         top: 90%;
         left: 30px;
+        height: 20px;
+        width: 20px;
+        justify-content: center;
         background-color: var(--mode-color);
         border-radius: 50%;
         padding: 10px;
