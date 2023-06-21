@@ -48,15 +48,15 @@
     margin-right: 15px;
     cursor: pointer;
 }
-.Footer > .container .content .socialmedia li .fa-facebook-f{
-    padding-left: 10px;
-    padding-right: 10px;
-    color: rgb(38, 53, 192);
-    border: solid rgb(38, 53, 192) 1px;
+.Footer > .container .content .socialmedia li .fa-whatsapp{
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #009b77;
+    border: solid #009b77 1px;
     transition: 0.5s;
 }
-.Footer > .container .content .socialmedia li .fa-facebook-f:hover{
-    background-color: rgb(38, 53, 192);
+.Footer > .container .content .socialmedia li .fa-whatsapp:hover{
+    background-color: #009b77;
     color: #fff;
 }
 .Footer > .container .content .socialmedia li .fa-instagram{
@@ -313,13 +313,53 @@
      }
 }
 @media (max-width:437px){
-    .Footer > .container .content4 .text .contact{
-        font-size: 8px;
-     }
-     .Footer > .container .content2 .links li{
-        font-size: 12px; 
-     }
-     .Footer > .end .socialmedia li{
-        margin-left: 15px;
-     }
+    .Footer > .container .content .logo{
+        margin: 23px;
+    }
+    .Footer > .container .content2{
+        display: none;
+    }
+    .Footer > .container .content4{
+        display: none;
+    }
+    .Footer > .end{
+        justify-content: center;
+    }
+    .Footer > .end p{
+        margin: 15px;
+        font-size: 10px;
+    }
+    .Footer > .end .socialmedia{
+        display: none;
+    }
+    .Footer > .container .socialmedia{
+        justify-content: center;
+        margin: 15px;
+    }
+    .Footer > .container .socialmedia li{
+        display: flex;
+    }
+    .Footer > .container .socialmedia li a i{
+        background-color: #eeeeee;
+        height: 16px;
+    }
+    .Footer > .container .content .socialmedia li .fa-whatsapp{
+        border: none;
+        color: rgb(13, 10, 31);
+    }
+    .Footer > .container .content .socialmedia li .fa-youtube{
+        border: none;
+        color: rgb(13, 10, 31);
+    }
+    .Footer > .container .content .socialmedia li .fa-twitter{
+        border: none;
+        color: rgb(13, 10, 31);
+    }
+    .Footer > .container .content .socialmedia li .fa-instagram{
+        border: none;
+        color: rgb(13, 10, 31);
+    }
+    .Footer > .container .socialmedia li a i:hover{
+        background: linear-gradient(90deg, #ed239f 0%, #1345e6 100%);
+    }
 }

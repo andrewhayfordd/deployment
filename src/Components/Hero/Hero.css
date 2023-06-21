@@ -43,15 +43,15 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
-.Hero > .container .mainhero .socialmedia li .fa-facebook-f{
-    padding-left: 10px;
-    padding-right: 10px;
-    color: rgb(38, 53, 192);
-    border: solid rgb(38, 53, 192) 1px;
+.Hero > .container .mainhero .socialmedia li .fa-whatsapp{
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #009b77;
+    border: solid #009b77 1px;
     transition: 0.5s;
 }
-.Hero > .container .mainhero .socialmedia li .fa-facebook-f:hover{
-    background-color: rgb(38, 53, 192);
+.Hero > .container .mainhero .socialmedia li .fa-whatsapp:hover{
+    background-color: #009b77;
     color: #fff;
 }
 .Hero > .container .mainhero .socialmedia li .fa-instagram{

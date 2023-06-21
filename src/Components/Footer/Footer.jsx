@@ -15,10 +15,10 @@ function Footer(){
                     </div>
 
                     <div className="socialmedia">
-                        <li><i className="fab fa-facebook-f"></i></li>
-                        <li><i className="fab fa-instagram"></i></li>
-                        <li><i className="fab fa-youtube"></i></li>
-                        <li><i className="fab fa-twitter"></i></li>
+                        <li><a href="https://wa.me/+233501880091"><i className="fab fa-whatsapp"/></a></li>
+                        <li><a href="https://www.instagram.com/andrew_hayfordd"><i className="fab fa-instagram"/></a></li>
+                        <li><a href="https://www.youtube.com"><i className="fab fa-youtube"/></a></li>
+                        <li><a href="https://www.twitter.com"><i className="fab fa-twitter"/></a></li>
                     </div>
                 </div>
 
@@ -64,10 +64,10 @@ function Footer(){
             <div className="end">
                 <p>Copyright © 2022 Developed by IDEACO-All rights reserved.</p>
                 <div className="socialmedia">
-                        <li><i className="fab fa-facebook-f"></i></li>
-                        <li><i className="fab fa-instagram"></i></li>
-                        <li><i className="fab fa-youtube"></i></li>
-                        <li><i className="fab fa-twitter"></i></li>
+                <li><a href="https://wa.me/+233501880091"><i className="fab fa-whatsapp"/></a></li>
+                        <li><a href="https://www.instagram.com/andrew_hayfordd"><i className="fab fa-instagram"/></a></li>
+                        <li><a href="https://www.youtube.com"><i className="fab fa-youtube"/></a></li>
+                        <li><a href="https://www.twitter.com"><i className="fab fa-twitter"/></a></li>
                     </div>
             </div>
         </div>

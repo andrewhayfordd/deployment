@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import "./fontawesome-free-5.15.4-web/css/all.min.css";
+import "./fontawesome-free-6.4.0-web/css/all.min.css";
 
 function Header(){
 
@@ -8,18 +8,20 @@ function Header(){
         let Header = this.document.querySelector(".Header");
         Header.classList.toggle("active", this.window.scrollY > 200)
     })
-
-    
     const body = document.querySelector("body");
     const mood =()=>{
         body.classList.toggle("dark");
     }
 
-    const menulist = document.querySelector(".menulist");
-    const links = document.querySelector(".linkss")
-    const menubtn =()=>{
-       menulist.classList.toggle("activemenu");
-       links.classList.toggle("activemenulist")
+    const toggleBtnIcon = document.querySelector(".toggle_btn i")
+    const dropDownMenu = document.querySelector(".dropdown_menu");
+
+    const toggleBtn =()=>{
+        dropDownMenu.classList.toggle("open")
+        const isOpen = dropDownMenu.classList.contains("open")
+
+        toggleBtnIcon.classList = isOpen
+        ? "fas fa-close" : "fas fa-bars"
     }
     
 
@@ -53,15 +55,14 @@ function Header(){
                 <button type="button">Hire Me</button>
             </div>
 
-            <div className="menu" onClick={menubtn}>
+            <div className="toggle_btn" onClick={toggleBtn}>
             <i className="fas fa-bars"></i>
            </div>
 
            </div>
 
             
-           <div className="menulist">
-            <div className="linkss">
+           <div className="dropdown_menu">
                 <li className="home"><a href="#home">Home</a></li>
                 <li className="dp"><a href="#home">Projects</a>
                 <ul>
@@ -72,7 +73,7 @@ function Header(){
                 <li><a href="#skill" >Skill</a></li>
                 <li><a href="#mywork">My Work</a></li>
                 <li><a href="#footer" >Contact</a></li>
-            </div>
+            
             </div>
             
            </div>
