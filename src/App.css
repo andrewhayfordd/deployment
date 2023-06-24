@@ -32,6 +32,13 @@ body{
   --display-sun: flex;
   --display-moon: none;
   --mode-color: #fff;
+  --inp-color: #fff;
+  --inp-text: #000;
+  --inp-border: solid #ccc 1px;
+  --text4-color: rgb(35, 25, 85);
+  --conBG-color: rgb(244, 244, 247);
+  --bg: rgb(228, 228, 250);
+  --text5-color: #1345e6;
 }
 
 body.dark{
@@ -45,4 +52,11 @@ body.dark{
   --skill-bg: #562a64;
   --display-sun: none;
   --display-moon: flex;
+  --inp-border: none;
+  --inp-color: #290f33;
+  --inp-text: #fff;
+  --text4-color: #c9c9c9;
+  --conBG-color: #562a64;
+  --bg: #290f33;
+  --text5-color: #ed239f;
 }

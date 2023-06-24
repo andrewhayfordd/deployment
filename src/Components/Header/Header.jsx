@@ -1,8 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import { useRef } from "react";
 import "./Header.css";
 import "./fontawesome-free-6.4.0-web/css/all.min.css";
 
 function Header(){
+    const listElement = useRef(null)
+    const listElement2 = useRef(null);
 
     window.addEventListener("scroll", function(){
         let Header = this.document.querySelector(".Header");
@@ -17,13 +21,14 @@ function Header(){
     const dropDownMenu = document.querySelector(".dropdown_menu");
 
     const toggleBtn =()=>{
-        dropDownMenu.classList.toggle("open")
-        const isOpen = dropDownMenu.classList.contains("open")
+        listElement.current.classList.toggle("open")
+        const isOpen = listElement.current.classList.contains("open")
 
-        toggleBtnIcon.classList = isOpen
+        listElement2.current.classList = isOpen
         ? "fas fa-close" : "fas fa-bars"
     }
     
+    const navigate = useNavigate();
 
     return(
 
@@ -35,7 +40,7 @@ function Header(){
             </div>
 
             <div className="links">
-                <li className="home"><a href="#home">Home</a></li>
+                <li className="home"><a onClick={()=>navigate("/")}>Home</a></li>
                 <li className="dp"><a href="#home">Projects</a>
                 <ul>
                     <li className="sub"><a href="#home">Websites</a></li>
@@ -44,7 +49,7 @@ function Header(){
                 </li>
                 <li><a href="#skill" >Skill</a></li>
                 <li><a href="#mywork">My Work</a></li>
-                <li><a href="#footer" >Contact</a></li>
+                <li><a onClick={()=>navigate("/contact")}>Contact</a></li>
             </div>
 
             <div className="button">
@@ -56,14 +61,14 @@ function Header(){
             </div>
 
             <div className="toggle_btn" onClick={toggleBtn}>
-            <i className="fas fa-bars"></i>
+            <i ref={listElement2} className="fas fa-bars"></i>
            </div>
 
            </div>
 
             
-           <div className="dropdown_menu">
-                <li className="home"><a href="#home">Home</a></li>
+           <div className="dropdown_menu" ref={listElement}>
+                <li className="home"><a onClick={()=>navigate("/")}>Home</a></li>
                 <li className="dp"><a href="#home">Projects</a>
                 <ul>
                     <li className="sub"><a href="#home">Websites</a></li>
@@ -72,7 +77,7 @@ function Header(){
                 </li>
                 <li><a href="#skill" >Skill</a></li>
                 <li><a href="#mywork">My Work</a></li>
-                <li><a href="#footer" >Contact</a></li>
+                <li><a onClick={()=>navigate("/contact")} >Contact</a></li>
             
             </div>
             

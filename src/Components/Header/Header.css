@@ -72,6 +72,7 @@
     padding: 10px;
     font-size: 19px;
     color: var(--text-color);
+    cursor: pointer;
 }
 .Header > .container .links a:hover{
     background: linear-gradient(90deg, #ed239f 0%, #1345e6 100%);

@@ -255,6 +255,7 @@
     .Footer > .end .socialmedia li i{
         font-size: 19px;
         cursor: pointer;
+        color: #ccc;
     }
 }
 @media (max-width:788px){
@@ -312,7 +313,7 @@
         margin-left: 5px;
      }
 }
-@media (max-width:437px){
+@media (max-width:513px){
     .Footer > .container .content .logo{
         margin: 23px;
     }
