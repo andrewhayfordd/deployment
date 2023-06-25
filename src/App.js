@@ -13,7 +13,7 @@ function App() {
        <Header/>
       <Routes>
         <Route exact path="/" element={<Hero/>}/>
-        <Route exact path="/contact" element={<Cont/>}/>
+        <Route exact path="/cont" element={<Cont/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

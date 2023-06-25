@@ -29,7 +29,7 @@ function Footer(){
                         <li><a href="/">Home</a></li>
                         <li><a href="/">Websites</a></li>
                         <li><a href="/">Web Apps</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/cont">Contact</a></li>
                         <li><a href="/#mywork">My Work</a></li>
                     </div>
                 </div>
