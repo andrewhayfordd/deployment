@@ -38,7 +38,7 @@ function Header(){
 
             <div className="links">
                 <li className="home"><a href="/">Home</a></li>
-                <li className="dp"><a href="/">Projects</a>
+                <li className="dp"><a href="/cont">Projects</a>
                 <ul>
                     <li className="sub"><a href="/">Websites</a></li>
                     <li><a href="/">Wep Apps</a></li>
@@ -75,7 +75,7 @@ function Header(){
                 </li>
                 <li><a href="#skill" >Skill</a></li>
                 <li><a href="#mywork">My Work</a></li>
-                <li><Link to={"/contact"}>Contact</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             
             </div>
             
