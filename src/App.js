@@ -4,7 +4,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Footer from './Components/Footer/Footer';
-import Cont from './Components/Contact/Cont';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
        <Header/>
       <Routes>
         <Route exact path="/" element={<Hero/>}/>
-        <Route exact path="/cont" element={<Cont/>}/>
+        <Route exact path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

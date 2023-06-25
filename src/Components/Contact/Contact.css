@@ -7,14 +7,14 @@
     justify-content: space-between;
 }
 @media (max-width: 1200px) {
-    .Contact{
+    #Contact{
         margin: 60;
         margin-left: 90px;
         margin-right: 90px;
     }
 }
 @media (max-width: 970px) {
-    .Contact{
+    #Contact{
         display: block;
         justify-content: center;
         margin: 20;
