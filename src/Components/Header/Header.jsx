@@ -1,6 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import "./fontawesome-free-6.4.0-web/css/all.min.css";
 
@@ -17,8 +17,6 @@ function Header(){
         body.classList.toggle("dark");
     }
 
-    const toggleBtnIcon = document.querySelector(".toggle_btn i")
-    const dropDownMenu = document.querySelector(".dropdown_menu");
 
     const toggleBtn =()=>{
         listElement.current.classList.toggle("open")
@@ -28,7 +26,6 @@ function Header(){
         ? "fas fa-close" : "fas fa-bars"
     }
     
-    const navigate = useNavigate();
 
     return(
 
@@ -40,7 +37,7 @@ function Header(){
             </div>
 
             <div className="links">
-                <li className="home"><a onClick={()=>navigate("/")}>Home</a></li>
+                <li className="home"><li><Link to={"/"}>Home</Link></li></li>
                 <li className="dp"><a href="#home">Projects</a>
                 <ul>
                     <li className="sub"><a href="#home">Websites</a></li>
@@ -49,7 +46,7 @@ function Header(){
                 </li>
                 <li><a href="#skill" >Skill</a></li>
                 <li><a href="#mywork">My Work</a></li>
-                <li><a onClick={()=>navigate("/contact")}>Contact</a></li>
+                <li><li><Link to={"/contact"}>Contact</Link></li></li>
             </div>
 
             <div className="button">
@@ -68,7 +65,7 @@ function Header(){
 
             
            <div className="dropdown_menu" ref={listElement}>
-                <li className="home"><a onClick={()=>navigate("/")}>Home</a></li>
+                <li className="home"><Link to={"/"}>Home</Link></li>
                 <li className="dp"><a href="#home">Projects</a>
                 <ul>
                     <li className="sub"><a href="#home">Websites</a></li>
@@ -77,7 +74,7 @@ function Header(){
                 </li>
                 <li><a href="#skill" >Skill</a></li>
                 <li><a href="#mywork">My Work</a></li>
-                <li><a onClick={()=>navigate("/contact")} >Contact</a></li>
+                <li><Link to={"/contact"}>Contact</Link></li>
             
             </div>
             
