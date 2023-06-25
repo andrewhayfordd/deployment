@@ -25,7 +25,7 @@ const Cont=()=>{
 
             <div className="container2" id="contact_form">
                 <div className="head"><h2>Send us a message</h2></div>
-                <form action="https://formsubmit.co/f1372dcfc220459676ca17650d042ff3"  method="POST">
+                <form action="https://formsubmit.co/8bc9c9738f2b49edb1a2915d54dc0883"  method="POST">
                     <input className="inp" type="text" name="Full Name" placeholder="Full Name*" required/>
                     <input className="inp" type="email" name="Email" placeholder="Email Address*" required/>
                     <input className="inp" type="text" name="Subject" placeholder="Subject"/>
