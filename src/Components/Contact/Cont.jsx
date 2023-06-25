@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-const Contact=()=>{
+const Cont=()=>{
     return(
         <div className="Contact">
             <div className="container">
@@ -38,4 +38,4 @@ const Contact=()=>{
         </div>
     );
 };
-export default Contact;
+export default Cont;
