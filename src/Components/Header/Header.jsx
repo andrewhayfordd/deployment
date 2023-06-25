@@ -33,7 +33,7 @@ function Header(){
             <div className="container">
 
             <div className="logo">
-                <h2><span>LED</span>VUS</h2>
+                <h2><span>LED</span>VU</h2>
             </div>
 
             <div className="links">
@@ -44,8 +44,8 @@ function Header(){
                     <li><a href="/">Wep Apps</a></li>
                 </ul>
                 </li>
-                <li><a href="#skill" >Skill</a></li>
-                <li><a href="#mywork">My Work</a></li>
+                <li><a href="/#skill" >Skill</a></li>
+                <li><a href="/#mywork">My Work</a></li>
                 <li><a href="/contact">Contact</a></li>
             </div>
 
