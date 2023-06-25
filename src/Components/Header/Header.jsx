@@ -33,7 +33,7 @@ function Header(){
             <div className="container">
 
             <div className="logo">
-                <h2><span>LED</span>VU</h2>
+                <h2><span>LED</span>VUS</h2>
             </div>
 
             <div className="links">
