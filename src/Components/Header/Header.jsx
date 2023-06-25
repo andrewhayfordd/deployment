@@ -46,8 +46,8 @@ function Header(){
                 </li>
                 <li><a href="/#aboutme">About</a></li>
                 <li><a href="/#skill" >Skill</a></li>
-                <li><Link to="/cont">Contact</Link></li>
-                <li><a href="/#footer">Contact</a></li>
+                <li><a href="/#mywork">My Work</a></li>
+                <li><Link to={"/cont"}>Contact</Link></li>
             </div>
 
             <div className="button">
