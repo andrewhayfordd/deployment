@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 function Footer(){
     return(
@@ -27,11 +26,11 @@ function Footer(){
                     <div className="head">Quick Links</div>
 
                     <div className="links">
-                        <li><Link to={"/"}>Home</Link></li>
-                        <li><Link to={"/websites"}>Websites</Link></li>
-                        <li><Link to={"/webapp"}>Web Apps</Link></li>
-                        <li><Link to={"/contact"}>Contact</Link></li>
-                        <li><a href="#mywork">My Work</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Websites</a></li>
+                        <li><a href="/">Web Apps</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/#mywork">My Work</a></li>
                     </div>
                 </div>
 
@@ -50,7 +49,7 @@ function Footer(){
                 <div className="contact-footer">
                     <div className="head">Contact</div>
                     <div className="inputs">
-                        <form action="https://formsubmit.co/andrewhayford0@gmail.com" method="POST">
+                        <form action="https://formsubmit.co/aaryeetey12@gmail.com" method="POST">
                     <input type="text" name="First Name" placeholder="First Name"/>
                     <input type="text" name="Last Name" placeholder="Last Name"/><br/>
                     <input type="text" name="Subject" placeholder="Subject" /><br/>
