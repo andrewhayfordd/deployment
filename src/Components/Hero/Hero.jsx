@@ -77,12 +77,13 @@ function Hero(){
                         <div className="val">{details.val}+</div>
                         <div className="name">{details.name}</div>
                     </div>
+                    <div id="aboutme"></div>
                 </div>
             ))}
            
           </div>
 
-        <div className="AboutMe" id="aboutme">
+        <div className="AboutMe" >
         <div className="container2">
                 <div className="shape"><img src={portfolio} alt="" /></div>
             </div>
@@ -103,7 +104,7 @@ function Hero(){
                 </div>
                 
                 <div className="btn">
-                <button>Download CV</button>
+                <button id="skill">Download CV</button>
                 </div>
                 
             </div>
@@ -114,7 +115,7 @@ function Hero(){
         </div>
 
 
-        <div className="Skill" id="skill">
+        <div className="Skill" >
             <div className="container">
 
                 <div className="header">
@@ -188,7 +189,7 @@ function Hero(){
                 </div>
 
                 <div className="btn">
-                    <button>Hire Me</button>
+                    <button id="mywork">Hire Me</button>
                 </div>
             </div>
 
@@ -196,7 +197,7 @@ function Hero(){
             </div>
         </div>
 
-       <div className="Mywork" id="mywork">
+       <div className="Mywork" >
             <div className="header">
                 <div className="head">My Works</div>
                 <div className="title">Check out my works</div>

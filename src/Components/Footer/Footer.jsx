@@ -49,7 +49,7 @@ function Footer(){
                 <div className="contact-footer">
                     <div className="head">Contact</div>
                     <div className="inputs">
-                        <form action="https://formsubmit.co/aaryeetey12@gmail.com" method="POST">
+                        <form action="https://formsubmit.co/8bc9c9738f2b49edb1a2915d54dc0883" method="POST">
                     <input type="text" name="First Name" placeholder="First Name"/>
                     <input type="text" name="Last Name" placeholder="Last Name"/><br/>
                     <input type="text" name="Subject" placeholder="Subject" /><br/>

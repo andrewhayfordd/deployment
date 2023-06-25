@@ -44,9 +44,10 @@ function Header(){
                     <li><a href="/">Wep Apps</a></li>
                 </ul>
                 </li>
+                <li><a href="/#aboutme">About</a></li>
                 <li><a href="/#skill" >Skill</a></li>
                 <li><a href="/#mywork">My Work</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/#footer">Contact</a></li>
             </div>
 
             <div className="button">
